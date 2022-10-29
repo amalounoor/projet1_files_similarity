@@ -16,4 +16,4 @@ definition:
  # compilation
  g++ similarity_files.cpp
  # execution
- ./fichier_executable
+ ./executable_file_name
