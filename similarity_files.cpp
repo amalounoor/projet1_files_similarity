@@ -19,8 +19,8 @@
 int main(){
     using namespace std;
     //1-read the two files and generate the vector of word for each file
-    string nf1; //nf1 --->the name of the first file
-    string nf2; //nf1 --->the name of the second file
+    string nf1; //nf1 --->the name.txt of the first file
+    string nf2; //nf1 --->the name.txt of the second file
     cout<<"Enter the tow files\n"; 
     cin>>nf1>>nf2; //read the two files names
     vector <string> vf1; //vf1--->vector of the first file word
