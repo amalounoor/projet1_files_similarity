@@ -8,7 +8,7 @@ cos similarity
 definition:
      cosine similarity or cos similarity is a measure of similarity between two sequences of numbers.For defining it, the sequences are viewed as vectors in an inner product space, and the cosine similarity is defined as the cosine of the angle between them, that is, the dot product of the vectors divided by the product of their lengths.
  The formula to find the cosine similarity between two vectors:
-     Cos(x, y) = x . y / ||x|| * ||y||
+     Cos(x, y) = x . y / ||x|| * ||y|| /n
    where:
  -->x . y = product (dot) of the vectors ‘x’ and ‘y’.
  -->||x|| and ||y|| = length of the two vectors ‘x’ and ‘y’.
