@@ -16,12 +16,13 @@
     double cos_similarity(vector<int>,vector<int>);
      //retun the cos similarity between two vectors
 
-int main(){
+int main(int argc,char *argv[]){
     using namespace std;
-    //1-read the two files and generate the vector of word for each file
+    //1-read the two files from the command-line and generate the vector of word for each file
     string nf1; //nf1 --->the name.txt of the first file
     string nf2; //nf1 --->the name.txt of the second file
-    cout<<"Enter the tow files\n"; 
+    nf1=argv[1];
+    nf2=argv[2];
     cin>>nf1>>nf2; //read the two files names
     vector <string> vf1; //vf1--->vector of the first file word
     vector <string> vf2; //vf1--->vector of the second file word
