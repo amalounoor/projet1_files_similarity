@@ -23,7 +23,6 @@ int main(int argc,char *argv[]){
     string nf2; //nf1 --->the name.txt of the second file
     nf1=argv[1];
     nf2=argv[2];
-    cin>>nf1>>nf2; //read the two files names
     vector <string> vf1; //vf1--->vector of the first file word
     vector <string> vf2; //vf1--->vector of the second file word
     vf1=readfile(nf1); 
