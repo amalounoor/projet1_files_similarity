@@ -12,8 +12,8 @@ definition:
    where:
  -->x . y = product (dot) of the vectors ‘x’ and ‘y’.
  -->||x|| and ||y|| = length of the two vectors ‘x’ and ‘y’.
- -->||x|| * ||y|| = cross product of the two vectors ‘x’ and ‘y’.
+ -->||x|| * ||y|| = cross product of the two vectors ‘x’ and ‘y’.(from Wikipedia and GeeksforGeeks)
  # compilation
  g++ similarity_files.cpp
  # execution
- ./executable_file_name
+ ./a name_file1.txt name_file2.txt
